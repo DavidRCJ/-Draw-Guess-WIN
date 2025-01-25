@@ -1,15 +1,15 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-primary: #F05454;/*#CD5C08;#F5F5F5*/
+    --color-secondary: #30475E; /*#FFF5E4;*/
+    --color-tertiary: #F5F5F5;
+    --color-button: #95bdf2;
+    --color-button-hover: #5e24fcac;
+    --color-text: #000000;
+    --color-white: #ffffff;
 }
 
 /* Estilos generales */
-* {
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,6 +42,9 @@ body {
 /* Sección de entrada */
 .input-section {
     flex: 60%;
+    h2{
+        color: F5F5F5;
+    }
     background-color: var(--color-secondary);
     border: 1px solid #000;
     border-radius: 64px 64px 0 0;
@@ -122,7 +125,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #8ea3ff;
 }
 
 /* Listas */
